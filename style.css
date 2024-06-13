@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+
+}
+
+.b1, 
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.b0 {
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+.addButton,
+.subButton,
+.multiButton,
+.divideButton,
+.enter {
+    height: 60px;
+    width: 60px;
+    border: 2px solid red;
+}
