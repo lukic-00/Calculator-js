@@ -212,8 +212,12 @@ enter.addEventListener("click", function() {
     let secondNumber = parseInt(secondValue);
     let result = operator(firstNumber, secondNumber);
     console.log("Result: " + result);
-    finalResult.textContent = result
-    firstValue = ""
+    if(isNaN(firstNumber) || isNaN(secondNumber)){
+        finalResult.textContent = "ERROR"
+    } else {
+        finalResult.textContent = result
+    }
+    firstValue = result
     secondValue = ""
     firstNumber = ""
     secondNumber = ""

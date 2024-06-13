@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFD5C2;
+    background-color: #588b8b82;
     height: 60px;
     border-radius: 10px;
 
@@ -51,26 +51,28 @@ body {
 .b8,
 .b9,
 .b0,
-.bAc {
+.bAc,
+.enter {
     height: 60px;
     width: 60px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .addButton,
 .subButton,
 .multiButton,
-.divideButton,
-.enter {
+.divideButton {
     height: 60px;
     width: 60px;
     border: 2px solid #588B8B;
+    cursor: pointer;
 }
 
 .operators {
     display: flex;
-    flex-direction: column;
-    gap: 11px;
+    flex-wrap: wrap;
+    width: 60px;
 }
 
 .opeBtn {
