@@ -8,6 +8,7 @@ const b7 = document.querySelector(".b7")
 const b8 = document.querySelector(".b8")
 const b9 = document.querySelector(".b9")
 const b0 = document.querySelector(".b0")
+const bAc = document.querySelector(".bAc")
 const addButton = document.querySelector(".addButton")
 const subButton = document.querySelector(".subButton")
 const multiButton = document.querySelector(".multiButton")
@@ -176,6 +177,14 @@ b0.addEventListener("click", function(){
     }
     console.log(firstValue)
     console.log(secondValue)
+})
+
+bAc.addEventListener("click", function(){
+    firstValue = ""
+    secondValue = ""
+    firstNumber = ""
+    secondValue = ""
+    finalResult.textContent = firstValue
 })
 
 addButton.addEventListener("click", function(){
