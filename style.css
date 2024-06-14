@@ -13,6 +13,7 @@ body {
     width: 320px;
     height: 390px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .display {
@@ -67,6 +68,8 @@ body {
     width: 60px;
     border: 2px solid #588B8B;
     cursor: pointer;
+    border-radius: 5px;
+
 }
 
 .operators {
@@ -87,4 +90,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
